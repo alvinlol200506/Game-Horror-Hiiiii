@@ -120,7 +120,6 @@ GameObject:
   - component: {fileID: 3287866379480243}
   - component: {fileID: 13375486929290019}
   - component: {fileID: 43548710839022289}
-  - component: {fileID: 2035978725767479705}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
   m_TagString: Untagged
@@ -217,64 +216,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
---- !u!114 &2035978725767479705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34210690218610475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: Drawer
-  objectCategory: 
-  interactMessage: Open/close drawer
-  failedMessage: 
-  objectIcon: {fileID: 0}
-  onInteractSucceed:
-    m_PersistentCalls:
-      m_Calls: []
-  onInteractFailed:
-    m_PersistentCalls:
-      m_Calls: []
-  isInteracted: 1
-  isLocked: 0
-  isRequiredPlaceholder: 0
-  isChildBlocked: 0
-  isRequiredItem: 0
-  isInteractActivation: 0
-  requiredItemName: 
-  requiredPlaceholders: []
-  childBlockeds: []
-  childBlockParent: {fileID: 0}
-  interactActivations: []
-  OnLocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnUnlocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnOpened:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClosed:
-    m_PersistentCalls:
-      m_Calls: []
-  doorPivot: {fileID: 4281479201067720690}
-  openAngleX: 0
-  openAngleY: 1
-  openAngleZ: 0
-  openAngle: -90
-  openDirectionX: 0
-  openDirectionY: 0
-  openDirectionZ: 1
-  openDirection: 0.1
-  openCloseDuration: 1
-  isOneWay: 0
-  useDirectionTween: 1
 --- !u!1 &103024965745325295
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,7 +265,6 @@ GameObject:
   - component: {fileID: 749488227745927868}
   - component: {fileID: 8149758373690871448}
   - component: {fileID: 8825343940206305679}
-  - component: {fileID: 3391791261439468442}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
   m_TagString: Untagged
@@ -421,64 +361,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
---- !u!114 &3391791261439468442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398613235893735522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: Drawer
-  objectCategory: 
-  interactMessage: Open/close drawer
-  failedMessage: 
-  objectIcon: {fileID: 0}
-  onInteractSucceed:
-    m_PersistentCalls:
-      m_Calls: []
-  onInteractFailed:
-    m_PersistentCalls:
-      m_Calls: []
-  isInteracted: 1
-  isLocked: 0
-  isRequiredPlaceholder: 0
-  isChildBlocked: 0
-  isRequiredItem: 0
-  isInteractActivation: 0
-  requiredItemName: 
-  requiredPlaceholders: []
-  childBlockeds: []
-  childBlockParent: {fileID: 0}
-  interactActivations: []
-  OnLocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnUnlocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnOpened:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClosed:
-    m_PersistentCalls:
-      m_Calls: []
-  doorPivot: {fileID: 5110625879170865261}
-  openAngleX: 0
-  openAngleY: 1
-  openAngleZ: 0
-  openAngle: -90
-  openDirectionX: 0
-  openDirectionY: 0
-  openDirectionZ: 1
-  openDirection: 0.1
-  openCloseDuration: 1
-  isOneWay: 0
-  useDirectionTween: 1
 --- !u!1 &435979697407311785
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +481,7 @@ GameObject:
   - component: {fileID: 943125258083083413}
   - component: {fileID: 950978395053607685}
   - component: {fileID: 974957244252682999}
+  - component: {fileID: 1417983256515081281}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
   m_TagString: Untagged
@@ -695,6 +578,64 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
+--- !u!114 &1417983256515081281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965040608091817741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Drawer
+  objectCategory: 
+  interactMessage: Open/close drawer
+  failedMessage: 
+  objectIcon: {fileID: 0}
+  onInteractSucceed:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  isInteracted: 1
+  isLocked: 0
+  isRequiredPlaceholder: 0
+  isChildBlocked: 0
+  isRequiredItem: 0
+  isInteractActivation: 0
+  requiredItemName: 
+  requiredPlaceholders: []
+  childBlockeds: []
+  childBlockParent: {fileID: 0}
+  interactActivations: []
+  OnLocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnlocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  doorPivot: {fileID: 4281479201067720690}
+  openAngleX: 0
+  openAngleY: 1
+  openAngleZ: 0
+  openAngle: -90
+  openDirectionX: 0
+  openDirectionY: 0
+  openDirectionZ: 1
+  openDirection: 0.1
+  openCloseDuration: 1
+  isOneWay: 0
+  useDirectionTween: 1
 --- !u!1 &1204615912341039726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,6 +1370,7 @@ GameObject:
   - component: {fileID: 370477731181006949}
   - component: {fileID: 6719597681551640730}
   - component: {fileID: 7993970891794366511}
+  - component: {fileID: 9011922209149476769}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
   m_TagString: Untagged
@@ -1525,6 +1467,64 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
+--- !u!114 &9011922209149476769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4597907780694866539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Drawer
+  objectCategory: 
+  interactMessage: Open/close drawer
+  failedMessage: 
+  objectIcon: {fileID: 0}
+  onInteractSucceed:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  isInteracted: 1
+  isLocked: 0
+  isRequiredPlaceholder: 0
+  isChildBlocked: 0
+  isRequiredItem: 0
+  isInteractActivation: 0
+  requiredItemName: 
+  requiredPlaceholders: []
+  childBlockeds: []
+  childBlockParent: {fileID: 0}
+  interactActivations: []
+  OnLocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnlocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  doorPivot: {fileID: 5110625879170865261}
+  openAngleX: 0
+  openAngleY: 1
+  openAngleZ: 0
+  openAngle: -90
+  openDirectionX: 0
+  openDirectionY: 0
+  openDirectionZ: 1
+  openDirection: 0.1
+  openCloseDuration: 1
+  isOneWay: 0
+  useDirectionTween: 1
 --- !u!1 &5156903928745389680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,6 +1972,7 @@ GameObject:
   - component: {fileID: 5707137855426133884}
   - component: {fileID: 4873980986347353691}
   - component: {fileID: 7224527704219029056}
+  - component: {fileID: 595337754059092548}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
   m_TagString: Untagged
@@ -2068,6 +2069,64 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
+--- !u!114 &595337754059092548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397640454474321648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Drawer
+  objectCategory: 
+  interactMessage: Open/close drawer
+  failedMessage: 
+  objectIcon: {fileID: 0}
+  onInteractSucceed:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractFailed:
+    m_PersistentCalls:
+      m_Calls: []
+  isInteracted: 1
+  isLocked: 0
+  isRequiredPlaceholder: 0
+  isChildBlocked: 0
+  isRequiredItem: 0
+  isInteractActivation: 0
+  requiredItemName: 
+  requiredPlaceholders: []
+  childBlockeds: []
+  childBlockParent: {fileID: 0}
+  interactActivations: []
+  OnLocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnlocked:
+    m_PersistentCalls:
+      m_Calls: []
+  OnOpened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnClosed:
+    m_PersistentCalls:
+      m_Calls: []
+  doorPivot: {fileID: 4363053980767560279}
+  openAngleX: 0
+  openAngleY: 1
+  openAngleZ: 0
+  openAngle: -90
+  openDirectionX: 0
+  openDirectionY: 0
+  openDirectionZ: 1
+  openDirection: 0.1
+  openCloseDuration: 1
+  isOneWay: 0
+  useDirectionTween: 1
 --- !u!1 &7315658575970562544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2247,6 @@ GameObject:
   - component: {fileID: 5526059545413443428}
   - component: {fileID: 121107950027725137}
   - component: {fileID: 4330204085380475957}
-  - component: {fileID: 3011178029890249807}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
   m_TagString: Untagged
@@ -2285,61 +2343,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.39999998, y: 3, z: 0.39999998}
   m_Center: {x: 0.19999999, y: 1.5, z: 0.19999999}
---- !u!114 &3011178029890249807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7609752030070288763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07fc3b51478da6a4b804a7eed617edc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectName: Drawer
-  objectCategory: 
-  interactMessage: Open/close drawer
-  failedMessage: 
-  objectIcon: {fileID: 0}
-  onInteractSucceed:
-    m_PersistentCalls:
-      m_Calls: []
-  onInteractFailed:
-    m_PersistentCalls:
-      m_Calls: []
-  isInteracted: 1
-  isLocked: 0
-  isRequiredPlaceholder: 0
-  isChildBlocked: 0
-  isRequiredItem: 0
-  isInteractActivation: 0
-  requiredItemName: 
-  requiredPlaceholders: []
-  childBlockeds: []
-  childBlockParent: {fileID: 0}
-  interactActivations: []
-  OnLocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnUnlocked:
-    m_PersistentCalls:
-      m_Calls: []
-  OnOpened:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClosed:
-    m_PersistentCalls:
-      m_Calls: []
-  doorPivot: {fileID: 4363053980767560279}
-  openAngleX: 0
-  openAngleY: 1
-  openAngleZ: 0
-  openAngle: -90
-  openDirectionX: 0
-  openDirectionY: 0
-  openDirectionZ: 1
-  openDirection: 0.1
-  openCloseDuration: 1
-  isOneWay: 0
-  useDirectionTween: 1
