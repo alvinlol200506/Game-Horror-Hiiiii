@@ -23641,6 +23641,7 @@ GameObject:
   - component: {fileID: 1530152154}
   - component: {fileID: 1530152153}
   - component: {fileID: 1530152152}
+  - component: {fileID: 1530152156}
   m_Layer: 3
   m_Name: Jumpscare Camera
   m_TagString: Untagged
@@ -23789,6 +23790,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1530152156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530152150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d3e8e776ad5584b8eb87f485b124d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverText: {fileID: 1761118062}
+  gameOverMessage: IHHHH TAKOTNYEEE
 --- !u!1001 &1531662270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29754,10 +29769,39 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1901154762}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1901154763}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jumpscare
+          m_BoolArgument: 0
+        m_CallState: 2
   distractIdleDelay: 3
   moveParameter: Move
   wanderBlendAnim: Wander
   chaseBlendAnim: Chase
+--- !u!95 &1901154763 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 93f175331b13808429d4b085140d308c, type: 3}
+  m_PrefabInstance: {fileID: 1901154758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1901154764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: 93f175331b13808429d4b085140d308c, type: 3}
