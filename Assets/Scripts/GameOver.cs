@@ -10,6 +10,7 @@ public class GameOver : MonoBehaviour
     public Transform player;
     public TMP_Text GameOverText;
     public string gameOverMessage = "IHHHH TAKOTNYEEE";
+    public string victoryMessage = "SELAMAT KAMU BERHASIL MENAMATKAN GAME INIIIIIII";
 
     [Header("Debug")]
     public int isJumpscareSaved = 0;
@@ -40,5 +41,27 @@ public class GameOver : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    [ContextMenu("Reset Jumpscare Save")]
+    public void ResetJumpscareSave()
+    {
+        PlayerPrefs.DeleteKey(saveKey);
+    }
+
+    public void StartVictory()
+    {
+        StartCoroutine(StartVictoryDelay());
+    }
+
+    IEnumerator StartVictoryDelay()
+    {
+        GameOverText.gameObject.SetActive(true);
+        GameOverText.text = gameOverMessage;
+
+        ResetJumpscareSave();
+        yield return new WaitForSeconds(2);
+
+        Application.Quit();
     }
 }
