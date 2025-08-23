@@ -609,6 +609,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36558479}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &39014694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39014696}
+  - component: {fileID: 39014695}
+  m_Layer: 0
+  m_Name: Jumpscare Checkpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &39014695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39014694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d3e8e776ad5584b8eb87f485b124d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveKey: IsJumpscareKey
+  jumpScareCheckPoint: {fileID: 39014696}
+  player: {fileID: 111035872}
+  GameOverText: {fileID: 1761118062}
+  gameOverMessage: KALLLAAAHHHHHHHH
+  isJumpscareSaved: 0
+--- !u!4 &39014696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39014694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.99, y: 0, z: -12.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &40260975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,6 +1926,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5527826a6315a224d850675a730c4f62, type: 3}
+--- !u!4 &111035872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1973241742116770349, guid: 522fc77cd8e72674780017dd62a1fb8e, type: 3}
+  m_PrefabInstance: {fileID: 1206187594}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &111789669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23641,7 +23696,6 @@ GameObject:
   - component: {fileID: 1530152154}
   - component: {fileID: 1530152153}
   - component: {fileID: 1530152152}
-  - component: {fileID: 1530152156}
   m_Layer: 3
   m_Name: Jumpscare Camera
   m_TagString: Untagged
@@ -23790,20 +23844,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &1530152156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530152150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d3e8e776ad5584b8eb87f485b124d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameOverText: {fileID: 1761118062}
-  gameOverMessage: IHHHH TAKOTNYEEE
 --- !u!1001 &1531662270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29793,6 +29833,18 @@ MonoBehaviour:
           m_StringArgument: Jumpscare
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 39014695}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: StartJumpscare
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jumpscare
+          m_BoolArgument: 0
+        m_CallState: 2
   distractIdleDelay: 3
   moveParameter: Move
   wanderBlendAnim: Wander
@@ -33848,3 +33900,4 @@ SceneRoots:
   - {fileID: 669027016}
   - {fileID: 1901154758}
   - {fileID: 179596163}
+  - {fileID: 39014696}
