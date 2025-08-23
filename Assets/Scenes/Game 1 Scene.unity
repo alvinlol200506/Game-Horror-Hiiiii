@@ -17368,7 +17368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "          How To Play\n\nWASD to Move\nE to Interact/pick                               
+  m_text: "          How To Play\n\nWASD to Move\nSHIFT to Run\nE to Interact/pick                               
     ignore this -> \nG to Drop\nH to Throw\nctrl to Crouch (click once)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: af594a66ad90326469519804c8da5dbc, type: 2}
